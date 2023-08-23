@@ -1,0 +1,70 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  /* cursor: none; */
+}
+
+.head {
+  text-align: center;
+  background-color: brown;
+  margin-top: 0;
+  padding: 12px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.main_section {
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 25%;
+  height: 100%;
+
+  background-color: whitesmoke;
+  overflow-y: auto;
+}
+
+#map {
+  width: 75%;
+  height: 100%;
+
+  background-color: wheat;
+}
+
+.left::-webkit-scrollbar,
+#map::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  border-left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 25px;
+}
+
+.divv{
+    margin-top: 15px;
+    font-size: medium;
+
+}
+
+.divv a {
+    text-decoration: none;
+    color:brown;
+    font-weight:600;
+    font-size: 22px;
+}
